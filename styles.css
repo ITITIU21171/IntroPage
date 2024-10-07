@@ -1,0 +1,65 @@
+/* General body styling */
+body {
+    font-size: 18px; /* Adjust this value to make the text bigger */
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Increase heading sizes if needed */
+h1 {
+    font-size: 36px; /* Larger heading */
+    color: #333;
+}
+
+h2 {
+    font-size: 30px; /* Adjust as necessary */
+}
+
+p {
+    font-size: 18px; /* Match the body font size or adjust */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 10px 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 20px;
+    display: block;
+    background-color: #007bff;
+    border-radius: 8px;
+    margin: 10px 0;
+    font-size: 18px; 
+    text-align: center;
+}
+
+nav ul li a:hover {
+    background-color: #0056b3; 
+}
+
+form {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+}
+
+input, textarea, select {
+    padding: 5px;
+    width: 300px;
+    margin-bottom: 10px;
+}
